@@ -11,7 +11,7 @@ div#serverBtnWrapper {
 div#noOfTask {
     height: 20px;
 }
-button#deleteServerBtn {
+button#removeServerBtn {
     margin-left: 40px;
 }
 
@@ -96,9 +96,6 @@ div#taskBtn {
 	text-transform: none;
 	font-size: 17px;
 }
-/*.task-left {
-	display: block;
-}*/
 .task-left.hide {
 	display: none;
 }
