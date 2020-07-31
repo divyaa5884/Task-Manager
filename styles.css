@@ -1,0 +1,107 @@
+button {
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+div#serverBtnWrapper {
+    text-align: center;
+    margin: 30px;
+}
+div#noOfTask {
+    height: 20px;
+}
+button#deleteServerBtn {
+    margin-left: 40px;
+}
+
+div#taskBtn {
+    text-align: center;
+}
+.message-text{
+	text-align: center;
+	height: 20px;
+	color: brown;
+	text-transform: capitalize;
+}
+.message-text.success-msg {
+	color: green;
+}
+.outer-wrapper{
+	margin-top: 10px;
+}
+.heading-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: darkcyan;
+}
+.task-execution-view{
+	display: inline-block;
+	border: 1px solid grey;
+	width: 48%;
+	padding: 5px 0;
+	margin: 20px 5px;
+	float: left;
+}
+.task{
+	width: 550px;
+	height: 20px;
+	border: 1px solid #613a5f;
+	border-radius: 2px;
+	margin: 10px auto;
+}
+.progress-bar{
+	width: 0;
+	height: 20px;
+	background-color: #5c6990;
+}
+.st-wrapper{
+	width: 97%;
+	height: 75px;
+	margin: 0 auto;
+	border: 1px solid grey;
+}
+.task-execution-view .st-wrapper span {
+	padding: 0 10px;
+}
+.pending-task-view{
+	display:inline-block;
+	border: 1px solid grey;
+	width: 48%;
+	float: right;
+	padding: 5px 0;
+	margin: 20px 5px;
+}
+.pending-task {
+    margin: 10px;
+}
+.pending-task-view .task{
+	width: 78%;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+.pending-task-view .pending-text{
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+.pending-task-view span {
+	padding-right: 10px;
+	vertical-align: middle;
+}
+.heading-text span{
+	display: block;
+	text-transform: none;
+	font-size: 17px;
+}
+/*.task-left {
+	display: block;
+}*/
+.task-left.hide {
+	display: none;
+}
+.deletePendingTaskBtn{
+	vertical-align: middle;
+}
